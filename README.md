@@ -1,4 +1,4 @@
 
 
 
-- [Planning](/PLAN.md)
+- [The Idea](/IDEA.md)
