@@ -48,7 +48,7 @@
 
 - Comes up with low level natural language for how to complete each step
 - Convert natural language to actual command
-  - For instance "Install Rust" might become "curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh"
+  - For instance "Install Rust" might become `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
   - At any time user can edit the transformation and this will be saved in a db so it knows in the future what to add
   - At any time user can add extra step
 - After completing each step can revise steps (similar to AutoGPT)
