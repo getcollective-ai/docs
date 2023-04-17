@@ -5,7 +5,7 @@
 
 ## ⚡ Fast
 
-- 99% of the work is not novel
+- 99% of work is not novel
     - Allow Collective to do non-novel work 
 - Turn 10x developers into 1,000x developers
 
