@@ -48,7 +48,7 @@
 
 - Executes each step in planning stage sequentially
 - After completing each step can revise steps (similar to AutoGPT)
-- At any point user can pause execution and redirect it
+- At any point user can pause execution and redirect with NL
 
 # Architecture
 
@@ -61,10 +61,15 @@
 ## Interface
 
 - start with a CLI interface that communicates with executor
-    - vim-like bindings (in the future
+    - vim-like bindings (in the future will not need to be vim)
 
 ## Services
 
 - Define a protocol communicating between executor and interface.
 - allow for custom interface. In the future will probably have a dedicated GUI that will not necessarily need vim bindings
+
+## Db
+
+- Communicate to db-service with protocol
+- Focus on making this really easy to install. For this reason, probably start with SQLite but consider in the future users might connect to a remote Db to have their data synced with OAuth
 
