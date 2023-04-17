@@ -21,7 +21,7 @@
 - Over time, Collective will need to ask fewer questions as it becomes a compressed version of the essence of the user
     - Allow basing your preferences on other, good programmers who program idiomatically.
 
-# Tentative Steps
+# Tentative Workflow
 
 ## 1. Instruction
 
